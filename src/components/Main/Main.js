@@ -7,11 +7,13 @@ import Home from './Home';
 
 export default function Main() {
     return (
+        <div className='main'>
         <Routes>
             <Route path='/home' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/product' element={<Product />} />
             <Route path='/cart' element={<Cart />} />
         </Routes>
+        </div>
     )
 }

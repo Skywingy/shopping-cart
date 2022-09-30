@@ -16,17 +16,17 @@ import CardsGrid from './CardsGrid';
 export default function CardList() {
     const CardList = [
         {
-            title: 'Howl"s Moving Castle',
+            title: "Howl's Moving Castle",
             year: '2004',
             genre: 'Adventure and Fantasy',
-            quote: 'A heart"s a heavy burden',
+            quote: "A heart's a heavy burden",
             image: howl
             
         },
         {   title:  'Castle in the Sky',
             year:   '1989',
             genre:  'Fictional Adventure',
-            quote:  'No matter how many weapons you have, no matter how great your technology might be, the world cannot live without love',
+            quote:  'The world cannot live without love',
             image: castle
 
         },
@@ -37,7 +37,7 @@ export default function CardList() {
             quote: 'Whenever someone creates something with all their heart, then that creation is given a soul',
             image: cat
         },
-        {   title: 'Kiki"s Delivery Service',
+        {   title: "Kiki's Delivery Service",
             year: '1989',
             genre: 'Animated Fantasy',
             quote: 'We can fly with our spirit',
@@ -48,7 +48,7 @@ export default function CardList() {
             title: 'Spirited Away',
             year: '2001',
             genre: 'Cross of mythical creature',
-            quote: 'Once you"ve met someone you never really forget them',
+            quote: "Once you've met someone you never really forget them",
             image: haku
 
         },
@@ -56,21 +56,21 @@ export default function CardList() {
             title: 'From Up on Poppy Hill',
             year:   '2011',
             genre:  'Highschool Life',
-            quote:  'There"s no future for people who worship the future and forget the past',
+            quote:  "There's no future for people who worship the future and forget the past",
             image: lib
         },
         {
             title: 'Only Yesterday',
             year:  '1991',
             genre: 'Romance Drama',
-            quote: 'If today is no good, you"ll have tomorrow',
+            quote: "If today is no good, you'll have tomorrow",
             image: only
             
         },
         {   title: 'Ponyo',
             year: '2008',
             genre: 'Fantasy Adventure',
-            quote: 'What"s important is is that you"re doing what you want',
+            quote: "What's important is is that you're doing what you want",
             image: ponyo
 
         },
@@ -78,13 +78,13 @@ export default function CardList() {
             title: 'Arrietty',
             year: '2010',
             genre: 'Fantasy Family',
-            quote: 'My heart is stronger now that you"re in it',
+            quote: "My heart is stronger now that you're in it",
             image: sho
         },
-        {   title: 'Ocean Waves',
+        {   title: 'The Ocean Waves',
             year: '1993',
             genre: 'Romance Drama', 
-            quote: 'You"re my best memory... Please do not fade',
+            quote: "You're my best memory... Please do not fade",
             image: wave
 
         },
@@ -92,7 +92,7 @@ export default function CardList() {
             title: 'Whisper of the Heart',
             year: '1995',
             genre: 'Family Romance',
-            quote: 'There"s always a voice inside me that says, Things won"t go that smoothly',
+            quote: "There's always a voice inside me that says, Things won't go that smoothly",
             image: whisper
 
         },
@@ -100,7 +100,7 @@ export default function CardList() {
             title: 'The Wind Rises',
             year: '2013',
             genre: 'War Romance',
-            quote: 'I"ll keep holding your hand. You should sleep',
+            quote: "I'll keep holding your hand. You should sleep",
             image: wind
         }
     ]

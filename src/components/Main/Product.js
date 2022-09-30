@@ -4,7 +4,7 @@ import CardList from './CardList'
 export default function Product() {
     return (
         <div className='Product'>
-            <Cardsgrid />
+            
             <CardList />  
         </div>
     )
