@@ -172,3 +172,8 @@ text-decoration: none;
   opacity: 1;
   transform: translateX(-6px);
 }
+
+.Cartin {
+  display: flex;
+  justify-content: center;
+}

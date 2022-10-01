@@ -2,13 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import logo from '../../assets/studio-ghibli-logo.svg';
+import words from '../../assets/words.png'
 
 
 export default function Nav() {
     return (
         <nav className='Nav'>
             <h3>
-                <StyleLink to='/home'><img src={logo} alt='fb' width='200px' height='100px'/></StyleLink>
+                <StyleLink to='/home'><img src={words} alt='fb' width='200px' height='65px'/></StyleLink>
             </h3>
             <ul className='nav-links'>
                 <li>
