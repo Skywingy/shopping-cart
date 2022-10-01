@@ -12,6 +12,7 @@ export default function Card({Cardie}) {
             <br></br>
             <h2 style={mystyle} className='title'>{Cardie.title}</h2>
             <p className='quote'> {Cardie.quote}</p>
+            <Button className='butt'>Add to cart</Button>
         </CardWrapper>
     )
 }
@@ -36,4 +37,11 @@ const Image = styled.img`
     padding: 1.2rem;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
+`
+
+const Button = styled.button`
+margin: auto;
+margin-bottom: 50px;
+cursor: pointer;
+
 `

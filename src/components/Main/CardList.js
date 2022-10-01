@@ -20,14 +20,16 @@ export default function CardList() {
             year: '2004',
             genre: 'Adventure and Fantasy',
             quote: "A heart's a heavy burden",
-            image: howl
+            image: howl,
+            price: '5$'
             
         },
         {   title:  'Castle in the Sky',
             year:   '1989',
             genre:  'Fictional Adventure',
             quote:  'The world cannot live without love',
-            image: castle
+            image: castle,
+            price: '3$'
 
         },
         {
@@ -35,13 +37,15 @@ export default function CardList() {
             year:   '2002',
             genre:  'Rom-Com',
             quote: 'Whenever someone creates something with all their heart, then that creation is given a soul',
-            image: cat
+            image: cat,
+            price: '4$'
         },
         {   title: "Kiki's Delivery Service",
             year: '1989',
             genre: 'Animated Fantasy',
             quote: 'We can fly with our spirit',
-            image: delivery
+            image: delivery,
+            price: '7$,'
 
         },
         {  
@@ -49,7 +53,8 @@ export default function CardList() {
             year: '2001',
             genre: 'Cross of mythical creature',
             quote: "Once you've met someone you never really forget them",
-            image: haku
+            image: haku,
+            price: '2$'
 
         },
         {
@@ -57,21 +62,24 @@ export default function CardList() {
             year:   '2011',
             genre:  'Highschool Life',
             quote:  "There's no future for people who worship the future and forget the past",
-            image: lib
+            image: lib,
+            price: '9$'
         },
         {
             title: 'Only Yesterday',
             year:  '1991',
             genre: 'Romance Drama',
             quote: "If today is no good, you'll have tomorrow",
-            image: only
+            image: only,
+            price: '8$'
             
         },
         {   title: 'Ponyo',
             year: '2008',
             genre: 'Fantasy Adventure',
             quote: "What's important is is that you're doing what you want",
-            image: ponyo
+            image: ponyo,
+            price: '9$'
 
         },
         {
@@ -79,13 +87,15 @@ export default function CardList() {
             year: '2010',
             genre: 'Fantasy Family',
             quote: "My heart is stronger now that you're in it",
-            image: sho
+            image: sho,
+            price: '1$'
         },
         {   title: 'The Ocean Waves',
             year: '1993',
             genre: 'Romance Drama', 
             quote: "You're my best memory... Please do not fade",
-            image: wave
+            image: wave,
+            price: '2$'
 
         },
         {  
@@ -93,7 +103,8 @@ export default function CardList() {
             year: '1995',
             genre: 'Family Romance',
             quote: "There's always a voice inside me that says, Things won't go that smoothly",
-            image: whisper
+            image: whisper,
+            price: '4$'
 
         },
         {
@@ -101,7 +112,8 @@ export default function CardList() {
             year: '2013',
             genre: 'War Romance',
             quote: "I'll keep holding your hand. You should sleep",
-            image: wind
+            image: wind,
+            price: '12$'
         }
     ]
 
