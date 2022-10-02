@@ -2,6 +2,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  
+  
 }
 #root {
   position: relative;
@@ -42,13 +44,13 @@ nav {
 }
 
 .nav-links{
-width: 40%;
 display: flex;
+flex-direction: row;
 justify-content: space-around;
 align-items: center;
 list-style: none;
 color: white;
-margin-left:  30%;
+gap: 1.1rem;
 }
 .nav-links:link {
   color: white;
@@ -83,7 +85,10 @@ text-decoration: none;
   padding: 5rem 2rem; 
   background-image: url('./assets/06.png');
 }
-
+.HomePage {
+  background-image: url('./assets/backgr.jpeg');
+  background-size: cover;
+}
 .title {
   text-transform: uppercase;
   font-family: 'Fira Sans', sans-serif;
@@ -130,13 +135,14 @@ text-decoration: none;
 .slide {
   font-size: 20px;
   font-weight: 200;
-  letter-spacing: 1px;
-  padding: 13px 30px 13px;
+  letter-spacing: px;
+  padding: 10px 20px 10px;
   outline: 0;
   border: 1px solid black;
   cursor: pointer;
   position: relative;
   background-color: #66f2d5;
+  box-sizing: border-box;
 }
 
 .slide i {
@@ -176,4 +182,34 @@ text-decoration: none;
 .Cartin {
   display: flex;
   justify-content: center;
+}
+
+.tracking-out-expand:hover {
+	-webkit-animation: tracking-out-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: tracking-out-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes tracking-out-expand {
+  0% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.8;
+  }
+  100% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+}
+@keyframes tracking-out-expand {
+  0% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.8;
+  }
+  100% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
 }

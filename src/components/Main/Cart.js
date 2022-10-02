@@ -1,12 +1,18 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components';
 
 export default function Cart() {
+
+
     return (
         <div className='Cartin'>
-        <CartWrapper className='Cart'>
-            Cart Page
-        </CartWrapper>
+            <CartWrapper className='Cart'>
+                <p>Your shopping basket</p>
+                <p>Products</p>
+                <p>Total:</p>
+                <button>Checkout</button>
+            </CartWrapper>
+    
         </div>
     )
 }
@@ -16,6 +22,6 @@ const CartWrapper = styled.div`
     box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
     padding: 1rem;
     width: 350px;
-    min-height: 80vh;
+    min-height: 75vh;
     background: white;
 `
